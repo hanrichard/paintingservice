@@ -9,13 +9,14 @@ export const Footer = () => {
           <ul>
             <li>Mobile: 0406203440</li>
             <li>Email: 458578411@qq.com</li>
+            <li>Location: Sydney Australia NSW</li>
           </ul>
         </Styles.ContainerInner>
       </Styles.Container>
 
       <Styles.Footer>
         <Styles.FooterInner>
-          @xxx painting service
+          @2024 xxx painting service. All rights reserved.
         </Styles.FooterInner>
       </Styles.Footer>
     </Styles.FooterWrapper>

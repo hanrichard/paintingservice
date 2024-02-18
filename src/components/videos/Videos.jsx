@@ -101,7 +101,7 @@ const displayRest =  <>
           <Styles.ModalInner >
             <iframe width="100%" height="auto" src={selected + "?autoplay=1&controls=1&loop=1&mute=1"} title="video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </Styles.ModalInner>
-          <Styles.Close onClick={handleClose}>Close</Styles.Close>
+          <Styles.Close onClick={handleClose}>X</Styles.Close>
         </Styles.ModalStyle>
       </Styles.ContainerInner>
     </Styles.Container>

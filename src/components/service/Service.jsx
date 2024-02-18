@@ -7,17 +7,17 @@ export const Service = () => {
         <Styles.ContainerInner>
           <h2 id="services">Services</h2>
           <Styles.Service>
-            <img src={require('../../assets/services.png')} />
+            <img  alt='' src={require('../../assets/services.png')} />
             <ul>
               <li>Various outdoor paints,</li>
-              <li>indoor paints,</li>
-              <li>tile spray paint</li>
-              <li>bathtub spray paint</li>
-              <li>aluminum alloy window spray paint</li>
+              <li>Indoor paints,</li>
+              <li>Tile spray paint</li>
+              <li>Bathtub spray paint</li>
+              <li>Aluminum alloy window spray paint</li>
               <li>Kitchen cabinet spray paint</li>
-              <li>various wood paints</li>
-              <li>high-end furniture varnish</li>
-              <li>garage driveway floor paint</li>
+              <li>Various wood paints</li>
+              <li>High-end furniture varnish</li>
+              <li>Garage driveway floor paint</li>
             </ul>
         </Styles.Service>
         </Styles.ContainerInner>

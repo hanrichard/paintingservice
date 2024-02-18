@@ -19,7 +19,7 @@ export const HeaderInner = styled.div`
 	}
 `
 
-export const headerList = styled.ul`
+export const HeaderList = styled.ul`
 	display: flex;
 	list-style: none;
 	padding: 0;
@@ -41,14 +41,14 @@ export const headerList = styled.ul`
 	}
 `
 export const Banner = styled.div`
-	height: 300px;
+	height: 200px;
 	width: 100%;
 	background-image: url("../../assets/house_painting2-1.jpg");
 	background-size: cover;
 	background-position: center;
 
 	@media only screen and (min-width: 768px) {
-		height: 500px;
+		height: 400px;
 	}
 	margin-bottom: 50px;
 `

@@ -18,8 +18,8 @@ export const Gallery = ({isFeature}) => {
 
   const images = [...Array(31).keys()]
   const all = images.map(i => {
-    return <Styles.Image key={i}><img src={require('../../assets/gallery/' + i + '.jpg')} onClick={
-      () => handleImageAddClick(<img src={require('../../assets/gallery/' + i +'.jpg')} />)} /></Styles.Image>
+    return <Styles.Image key={i}><img  alt='' src={require('../../assets/gallery/' + i + '.jpg')} onClick={
+      () => handleImageAddClick(<img  alt='' src={require('../../assets/gallery/' + i +'.jpg')} />)} /></Styles.Image>
   })
 
   return (
@@ -27,7 +27,7 @@ export const Gallery = ({isFeature}) => {
       <Styles.ContainerInner>
         <h2 id="gallery">Gallery</h2>
         <Styles.ImageList>
-          {all.slice(0, 6)}
+          {all.slice(8, 16)}
           {!isFeature && all}
         </Styles.ImageList>
 
@@ -42,7 +42,7 @@ export const Gallery = ({isFeature}) => {
           <Styles.ModalInner >
             {selectedImage}
           </Styles.ModalInner>
-          <Styles.Close onClick={handleImageClose}>Close</Styles.Close>
+          <Styles.Close onClick={handleImageClose}>X</Styles.Close>
         </Styles.ModalStyle>
       </Styles.ContainerInner>
     </Styles.Container>

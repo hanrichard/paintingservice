@@ -60,7 +60,7 @@ export const ModalStyle = styled(Modal)`
   max-width: 400px;
 
   @media only screen and (min-width: 768px) {
-    max-width: 700px;
+    max-width: 600px;
   }
 
   margin: 0 auto;
@@ -68,8 +68,8 @@ export const ModalStyle = styled(Modal)`
 
 export const ModalInner = styled.div`
   margin: 0 auto;
-  width: 80%;
-  padding-bottom: 142%;
+  width: 70%;
+  padding-bottom: 123%;
   position: relative;
 
   iframe {
@@ -84,14 +84,24 @@ export const ModalInner = styled.div`
 export const ViewMore = styled.div`
 	text-align: center;
 	padding: 20px 30px;
-	margin-top: 20px;
+  margin-top: 20px;
+
+  a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+  }
 `;
 
 
 export const Close = styled.button`
 	text-align: center;
-	padding: 20px 30px;
-	margin-top: 50px;
+	padding: 20px;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	cursor: pointer;
+	font-size: 16px;
 `;
 
 

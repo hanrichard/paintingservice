@@ -11,13 +11,13 @@ export const Header = () => {
         <Styles.HeaderInner>
           <Link to="/"><b>SYDNEY PAINTING SERVICE</b></Link>
           <nav>
-          <Styles.headerList>
+          <Styles.HeaderList>
               <li><HashLink to="/#services">Services</HashLink></li>
               <li><HashLink to="/#about">About</HashLink></li>
               <li><HashLink to="/#portfolios">Portfolios</HashLink></li>
               <li><HashLink to="/#gallery">Gallery</HashLink></li>
               <li><HashLink to="/#contact">Contact</HashLink></li>
-            </Styles.headerList>
+            </Styles.HeaderList>
           </nav>
         </Styles.HeaderInner>
     </Styles.Header >

@@ -30,7 +30,7 @@ export const ModalStyle = styled(Modal)`
 	max-width: 400px;
 
 	@media only screen and (min-width: 768px) {
-		max-width: 1000px;
+		max-width: 800px;
 	}
 
 	margin: 0 auto;
@@ -49,12 +49,21 @@ export const ViewMore = styled.div`
 	text-align: center;
 	padding: 20px 30px;
 	margin-top: 20px;
+	a {
+		font-size: 16px;
+		color: #000000;
+		font-weight: bold;
+	}
 `;
 
 export const Close = styled.button`
 	text-align: center;
-	padding: 20px 30px;
-	margin-top: 50px;
+	padding: 20px;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	cursor: pointer;
+	font-size: 16px;
 `;
 
 export const Container = styled.div`
