@@ -46,9 +46,32 @@ export const Banner = styled.div`
 	background-image: url("../../assets/house_painting2-1.jpg");
 	background-size: cover;
 	background-position: center;
+	position: relative;
 
 	@media only screen and (min-width: 768px) {
 		height: 400px;
+		font-size: 30px;
 	}
 	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 18px;
+
+	h1 {
+		padding: 10px;
+		z-index: 1;
+		text-align: center;
+	}
+`
+export const BannerInner = styled.div`
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+	z-index: 0;
+	background-color: #000000;
 `

@@ -21,7 +21,9 @@ export const Header = () => {
           </nav>
         </Styles.HeaderInner>
     </Styles.Header >
-    <Styles.Banner 
-     style={{backgroundImage: `url(${Img})` , backgroundColor: '#cccccc'}}/>
+    <Styles.Banner style={{backgroundImage: `url(${Img})` , backgroundColor: '#cccccc'}}>      
+      <h1>Professional painting services<br />in Sydney</h1>
+      <Styles.BannerInner />
+    </Styles.Banner>
   </>
 )};

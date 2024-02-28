@@ -16,7 +16,7 @@ export const Footer = () => {
 
       <Styles.Footer>
         <Styles.FooterInner>
-          @2024 xxx painting service. All rights reserved.
+          @2024 Professional painting services. All rights reserved.
         </Styles.FooterInner>
       </Styles.Footer>
     </Styles.FooterWrapper>
